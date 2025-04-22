@@ -4,5 +4,5 @@ A simple and responsive calculator built with **React**. This app allows users t
 
 ---
 
-![Calculator Screenshot](./screenshots/calculator.png)  
+![Calculator Screenshot](./screenshots/calculator.webp)  
 <sub>📷 Example UI of the Calculator App</sub>
