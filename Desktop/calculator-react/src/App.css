@@ -1,16 +1,16 @@
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #dca47c;
+  background: whitesmoke;
 }
 
 .calculator {
   padding: 20px;
   border-radius: 10px;
-  background-color: #ffd3b6;
+  background-color: black;
 }
 
 form input {
@@ -18,16 +18,16 @@ form input {
   outline: 0;
   width: 60px;
   height: 60px;
-  font-size: 16px;
-  background-color: #698474;
+  font-size: 23px;
+  background-color: rgba(110, 110, 110, 0.697);
   margin: 2px;
-  border-radius: 10px;
+  border-radius: 100px;
   color: white;
-  font-weight: bolder;
+  font-weight:500;
   cursor: pointer;
 }
 form input[type='button']:hover {
-  background-color: #bec6a0;
+  background-color: gray;
 }
 
 form .display {
@@ -41,13 +41,26 @@ form .display input {
   flex: 1;
   font-size: 40px;
   padding: 5px 10px;
-  background-color: rgb(45, 45, 45);
+  background-color: rgba(229, 229, 229, 0.574);
 }
 form input.equal {
   width: 123px;
+  background-color: orange;
+}
+form input.equal:hover {
+  background-color: rgb(214, 214, 214) !important;
+}
+
+form .right_cal{
+  background-color: orange;
+}
+
+form .right_cal:hover{
+  background-color: rgb(214, 214, 214) !important;
 }
 .text-h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
-  color: rgb(45, 45, 45);
+  color: rgb(163, 163, 163);
 }
+
